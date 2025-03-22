@@ -1,3 +1,4 @@
 runtime: custom
 run: 
-  command: ["./v2ray","run"]
+  port: 8080
+  command: ./v2ray $$ run
